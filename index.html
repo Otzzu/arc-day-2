@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    
+    <div class="first-view div-center">
+        <h1 class="title text">Rock Paper Scissors Game</h1>
+        <div class="container-button-first">
+            <button>Start</button>
+            <button class="dark-button">Dark</button>
+        </div>
+    </div>
+
+    <div class="main-view hidden div-center">
+        <h1 class="title text title-main">Rock Paper Scissors</h1>
+        <div class="big-container">
+            <div class="container-button-setting">
+                <button class="button button-reset">Reset</button>
+                <button class="dark-button">Dark</button>
+            </div>
+            <div class="container-point">
+                <div class="container-single-point">
+                    <p class="text">Player</p>
+                    <h1 class="point point-player text">0</h1>
+                </div>
+                <div class="container-single-point">
+                    <p class="text">Bot</p>
+                    <h1 class="point point-bot text">0</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-info">
+            <h4 class="info text"></h4>
+        </div>
+
+        <div class="container-button">
+            <input type="image" src="rock.png" data-option="0">  
+            <input type="image" src="scissors.png" data-option="1">  
+            <input type="image" src="paper.png" data-option="2">  
+        </div>
+    </div>
+</body>
+
+</html>
