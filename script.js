@@ -1,3 +1,6 @@
+// fitur tambahan yang ada disini adalah bisa mereset score dan juga ada
+// toggle buat ganti-ganti dari darkmode ke lightmode
+
 const firstView = document.querySelector(".first-view");
 const startButton = document.querySelector(".start-button");
 const mainView = document.querySelector(".main-view")
